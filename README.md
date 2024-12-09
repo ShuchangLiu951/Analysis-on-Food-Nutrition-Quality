@@ -13,7 +13,7 @@ This project focuses on the recipes and interaction datasets. The recipes datase
 
 ## Cleaning and EDA
 
-<iframe src="asset/mean-protein.htm" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/mean-protein.html" width=800 height=600 frameBorder=0></iframe>
 
 ---
 
