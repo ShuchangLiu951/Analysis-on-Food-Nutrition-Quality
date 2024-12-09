@@ -14,7 +14,6 @@ This project focuses on the recipes and interaction datasets. The recipes datase
 ## Cleaning and EDA
 
 <iframe src="assets/file-name.html" width=800 height=400 frameBorder=0></iframe>
-
 ---
 
 ## Assessment of Missingness
@@ -39,9 +38,8 @@ The results showed an observed difference of approximately 35.8, with a p-value 
 
 ## Prediction Problem
 
-
-
-
+Our prediction problem involves determining whether a recipe is healthy, normal, or bad based on its characteristics such as ingredients, tags, and nutritional information. This is a multiclass classification problem, as the response variable (nutrition_score) has three distinct categories. We chose this response variable because it quantifies the overall nutritional quality of recipes, making it central to assessing their healthiness.
+The evaluation metric for the model is accuracy, as it provides a straightforward measure of the proportion of correctly classified samples. While metrics like F1-score are valuable for imbalanced datasets, the classes in our dataset are relatively balanced, making accuracy a suitable and interpretable choice. This framing ensures that the model effectively distinguishes between the three health categories, supporting healthier dietary decisions.
 
 ___
 
