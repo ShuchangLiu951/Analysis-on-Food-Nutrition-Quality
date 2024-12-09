@@ -1,4 +1,4 @@
-# How to predict if a food is nutrition or not?
+# A way to predict the nutrition level of a recipe
 *Kevin Li & Shuchang Liu*
 
-What a nice day
+
