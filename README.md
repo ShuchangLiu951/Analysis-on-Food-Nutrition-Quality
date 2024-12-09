@@ -1,4 +1,4 @@
-# Analysis-on-Food-Protein-
-This is a project for DSC80 at UCSD
+# How to predict if a food is nutrition or not?
+Kevin Li & Shuchang Liu
 
 What a nice day
