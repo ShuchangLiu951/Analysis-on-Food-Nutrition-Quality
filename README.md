@@ -2,7 +2,6 @@
 
 by Kevin Li (kel062@ucsd.edu) & ShuChang Liu (shl153@ucsd.edu)
 
-***Note***: If you choose a repo name and title as uninspired as the ones here, I will be quite sad.
 
 ---
 
@@ -14,7 +13,7 @@ In this project, we studied the effectiveness of spice challenges in building te
 
 ## Cleaning and EDA
 
-<iframe src="assets/10-80-enrollment.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/mean-protein.html" width=800 height=600 frameBorder=0></iframe>
 
 ---
 
@@ -40,3 +39,33 @@ print(counts[['Quarter', 'Count']].head().to_markdown(index=False))
 
 
 ---
+
+## Prediction Problem
+
+
+
+
+
+___
+
+## Baseline Model
+
+
+
+
+___
+
+## Final Model
+
+
+
+
+___
+
+## Fairness Analysis
+
+
+
+
+
+
