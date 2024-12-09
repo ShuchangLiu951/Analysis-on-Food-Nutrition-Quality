@@ -13,7 +13,7 @@ In this project, we studied the effectiveness of spice challenges in building te
 
 ## Cleaning and EDA
 
-<iframe src="asset/mean-protein.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="??" width=800 height=600 frameBorder=0></iframe>
 
 ---
 
