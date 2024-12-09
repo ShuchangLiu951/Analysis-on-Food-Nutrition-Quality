@@ -7,7 +7,7 @@ by Kevin Li (kel062@ucsd.edu) & ShuChang Liu (shl153@ucsd.edu)
 
 ## Introduction
 
-In this project, we studied the effectiveness of spice challenges in building team morale.
+This project focuses on the recipes and interaction datasets. The recipes dataset contains key information about recipe ingredients, tags, cooking steps, and nutrition, while the interaction dataset includes user reviews and ratings. The central question we are going to explore is: “Can we predict whether a recipe will be rated as healthy, normal, or bad based on its nutrition?” This question is important for promoting health-conscious choices, improving recipe recommendations, making it relevant to users alike.
 
 ---
 
