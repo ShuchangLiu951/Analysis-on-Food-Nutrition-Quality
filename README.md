@@ -14,19 +14,26 @@ This project focuses on the recipes and interaction datasets. The recipes datase
 ## Cleaning and EDA
 
 <iframe src="assets/file-name.html" width=800 height=400 frameBorder=0></iframe>
----
 
-## Assessment of Missingness
 
-<iframe src="assets/missing-on-n_ingredients.html" width=800 height=400 frameBorder=0></iframe>
 
-| Quarter     |   Count |
+
+| Column     |   Description |
 |:------------|--------:|
 | Fall 2020   |       3 |
 | Winter 2021 |       2 |
 | Spring 2021 |       6 |
 | Summer 2021 |       4 |
 | Fall 2021   |      55 |
+
+---
+
+## Assessment of Missingness
+
+<iframe src="assets/missing-on-n_ingredients.html" width=800 height=400 frameBorder=0></iframe>
+
+<iframe src="assets/missing-on-n_ingredients.html" width=800 height=400 frameBorder=0></iframe>
+
 
 ---
 
