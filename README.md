@@ -140,7 +140,9 @@ ___
 
 ## Fairness Analysis
 
+In our fairness analysis, we aimed to determine whether the model's performance differed for recipes submitted before 2010 (Group X) and recipes submitted after or in 2010 (Group Y). We used precision as the evaluation metric because it provides insight into the accuracy of positive classifications in each group. The null hypothesis states that the model's precision is equal across the two groups, and any observed differences are due to random chance. The alternative hypothesis claims that the precision differs significantly between these two groups, suggesting unfair performance.
 
+Using a permutation test with 100 iterations, we calculated the observed difference in precision between Group X and Group Y as 0.0141. The p-value obtained was 0.0200, which is less than the significance level of 0.05. Therefore, we rejected the null hypothesis and concluded that the model's performance is statistically different between the two groups. This indicates potential unfairness in the model's treatment of recipes from different time periods.
 
 
 
