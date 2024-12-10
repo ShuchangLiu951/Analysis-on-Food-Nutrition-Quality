@@ -86,7 +86,8 @@ To identify notable trends, we grouped data by the nutrition_score column and ca
 
 We ran the permutation test by shuffling the missingness of rating 500 times to collect 1000 simulating mean differences in the two distributions as described in the test statistic.
 <iframe src="assets/missing-on-n_ingredients.html" width=800 height=400 frameBorder=0></iframe>
-The observed test statistic 0.0 is indicated at the end of graph. p-value(0.0) < 0.0. **We reject the null hypothesis**, the missing rating does depend on the number of ingredients in the recipe
+
+The observed test statistic 0.0 is indicated at the end of graph. p-value(0.0) < 0.0. **We reject the null hypothesisthe**: missing rating does depend on the number of ingredients in the recipe.
 
 <iframe src="assets/missing-on-minutes.html" width=800 height=400 frameBorder=0></iframe>
 
