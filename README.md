@@ -133,8 +133,8 @@ ___
 
 ## Final Model
 
-
-
+Final Model
+To improve upon the baseline model, we added new features and optimized hyperparameters using GridSearchCV. The final model incorporated the same nominal (ingredients and tags) and quantitative features (n_steps and n_ingredients) as the baseline but introduced feature scaling for numerical attributes and hyperparameter tuning for the decision tree classifier. We used a grid search to identify the best combination of hyperparameters, optimizing for the split criterion (gini or entropy), the maximum tree depth, and the minimum samples per leaf. The optimal parameters were: criterion='entropy', max_depth=10, and min_samples_leaf=8. The final model achieved a cross-validation accuracy of 70.91% and a test accuracy of 71.57%, comparable to the baseline but slightly more refined due to better generalization from hyperparameter optimization.
 
 ___
 
