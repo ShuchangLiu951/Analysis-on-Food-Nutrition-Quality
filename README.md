@@ -18,6 +18,7 @@ This project focuses on the recipes and interaction datasets. The recipes datase
 
 ## Assessment of Missingness
 
+<iframe src="assets/missing-on-n-ingredients.html" width=800 height=400 frameBorder=0></iframe>
 
 | Quarter     |   Count |
 |:------------|--------:|
