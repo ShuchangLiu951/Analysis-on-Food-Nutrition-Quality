@@ -125,6 +125,7 @@ ___
 
 ## Baseline Model
 
+We implemented a baseline model to predict the nutrition_score of recipes (healthy, normal, or bad) using a multiclass classification approach. The model included three features: two nominal features (ingredients and tags) and two quantitative features (n_steps and n_ingredients). For preprocessing, we used a ColumnTransformer to apply CountVectorizer on the nominal features, converting textual data into numerical representations, and Binarizer on the quantitative features to handle threshold-based transformations. A DecisionTreeClassifier (with a maximum depth of 15) was used as the estimator, all encapsulated within an sklearn pipeline to streamline feature transformation and model training. The model achieved a training accuracy of 79.16% and a test accuracy of 71.80%, demonstrating moderate generalizability.
 
 
 
