@@ -77,9 +77,13 @@ To identify notable trends, we grouped data by the nutrition_score column and ca
 ### Missing Dependency
 
 >Number of ingredients and Rating
+
 **Null Hypothesis:** The missingness of ratings does not depend on the number of ingredients in the recipe.
+
 **Alternative Hypothesis:**  The missingness of ratings does depend on the number of ingredients in the recipe.
+
 **Test Statistic:** The absolute difference of mean in the proportion of number of ingredients of the distribution of the group without missing ratings and the distribution of the group with missing ratings.
+
 **Significant Level:** 0.05
 
 We ran the permutation test by shuffling the missingness of rating 500 times to collect 1000 simulating mean differences in the two distributions as described in the test statistic.
