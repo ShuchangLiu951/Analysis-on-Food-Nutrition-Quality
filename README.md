@@ -7,7 +7,15 @@ by Kevin Li (kel062@ucsd.edu) & ShuChang Liu (shl153@ucsd.edu)
 
 ## Introduction
 
-This project focuses on the recipes and interaction datasets. The recipes dataset contains key information about recipe ingredients, tags, cooking steps, and nutrition, while the interaction dataset includes user reviews and ratings. The central question we are going to explore is: “Can we predict whether a recipe will be rated as healthy, normal, or bad based on its nutrition?” This question is important for promoting health-conscious choices, improving recipe recommendations, making it relevant to users alike.
+In this project, we explore two datasets that consist of recipes and user interactions. The datasets provides detailed information about recipes, including their ingredients, preparation steps, nutritional values, and tags, etc., as well as user reviews and ratings. This enables us to investigate cooking trends, recipe complexity, and user preferences.
+The recipes dataset contains key information about recipe ingredients, tags, cooking steps, and nutrition that has 83,782 rows, while the interaction dataset includes user reviews and ratings that has 731,927 rows. The central question we are going to explore is: “Can we predict whether a recipe will be rated as healthy, normal, or bad based on its nutrition?” This question is important for promoting health-conscious choices, improving recipe recommendations, making it relevant to users alike.
+The following columns are critical for our analysis as they provide information about recipe characteristics and nutritional properties:
+id: A unique identifier for each recipe.
+minutes: The total time required to prepare the recipe, in minutes.
+tags: tags that describe the recipe (e.g., "30-minutes-or-less", "vegetarian").
+n_steps: The number of steps required to prepare the recipe.
+ingredients: A list of all the ingredients used in the recipe.
+n_ingredients: The number of ingredients in the recipe.
 
 ---
 
