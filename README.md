@@ -49,6 +49,16 @@ n_ingredients: The number of ingredients in the recipe.
 |   nutrition_score | <class 'numpy.float64'>   |
 |   missing_rating | <class 'numpy.bool'>   |
 
+some
+
+| nutrition_score     |   rating |
+|:------------|--------:|
+|   'bad' | 4.68   |
+|  'normal' | 4.69  |
+|   'healthy' | 4.64   |
+
+
+
 ---
 
 ## Assessment of Missingness
