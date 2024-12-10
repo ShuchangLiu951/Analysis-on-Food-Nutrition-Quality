@@ -24,6 +24,7 @@ n_ingredients: The number of ingredients in the recipe.
 In this step, we carefully cleaned the data to ensure it was ready for analysis. Missing values in the rating column were replaced with NaN to prevent inaccuracies. A new column, nutrition_score, was created to classify recipes as "healthy," "normal," or "bad" based on the proportions of beneficial and harmful nutrients relative to calorie content. This step also involved splitting and cleaning string-based columns such as tags and ingredients to enhance their usability. We then merged the recipes and interaction datasets on the recipe ID to allow for combined analysis.
 
 ### result
+
 | Column     |   Description |
 |:------------|--------:|
 |   id | <class 'numpy.int64'>   |
