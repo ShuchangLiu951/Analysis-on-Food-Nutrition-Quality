@@ -1,6 +1,6 @@
 # A way to predict nutrition level based on recipe
 
-by Kevin Li (kel062@ucsd.edu) & ShuChang Liu (shl153@ucsd.edu)
+by Kevin Li (kel062@ucsd.edu) & Shuchang Liu (shl153@ucsd.edu)
 
 
 ---
@@ -28,11 +28,26 @@ n_ingredients: The number of ingredients in the recipe.
 
 | Column     |   Description |
 |:------------|--------:|
-| Fall 2020   |       3 |
-| Winter 2021 |       2 |
-| Spring 2021 |       6 |
-| Summer 2021 |       4 |
-| Fall 2021   |      55 |
+|   id | <class 'numpy.int64'>   |
+|   rating average | <class 'numpy.float64'>   |
+|   name | <class 'str'>   |
+|   minutes | <class 'numpy.int64'>   |
+|   contributor_id | <class 'numpy.int64'>   |
+|   submitted | <class 'str'>   |
+|   tags | <class 'str'>   |
+|   nutrition | <class 'list'>   |
+|   n_steps | <class 'numpy.int64'>   |
+|   steps | <class 'str'>   |
+|   description | <class 'str'>   |
+|   ingredients | <class 'str'>   |
+|   n_ingredients | <class 'numpy.int64'>   |
+|   user_id | <class 'numpy.float64'>   |
+|   recipe_id | <class 'numpy.float64'>   |
+|   date | <class 'str'>   |
+|   rating | <class 'numpy.float64'>   |
+|   review | <class 'str'>   |
+|   nutrition_score | <class 'numpy.float64'>   |
+|   missing_rating | <class 'numpy.bool'>   |
 
 ---
 
