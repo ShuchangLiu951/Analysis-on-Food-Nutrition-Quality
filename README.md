@@ -21,11 +21,9 @@ n_ingredients: The number of ingredients in the recipe.
 
 ## Cleaning and EDA
 
-<iframe src="assets/file-name.html" width=800 height=400 frameBorder=0></iframe>
+In this step, we carefully cleaned the data to ensure it was ready for analysis. Missing values in the rating column were replaced with NaN to prevent inaccuracies. A new column, nutrition_score, was created to classify recipes as "healthy," "normal," or "bad" based on the proportions of beneficial and harmful nutrients relative to calorie content. This step also involved splitting and cleaning string-based columns such as tags and ingredients to enhance their usability. We then merged the recipes and interaction datasets on the recipe ID to allow for combined analysis.
 
-<iframe src="assets/number_step.html" width=800 height=400 frameBorder=0></iframe>
-
-
+###result
 | Column     |   Description |
 |:------------|--------:|
 |   id | <class 'numpy.int64'>   |
@@ -49,13 +47,25 @@ n_ingredients: The number of ingredients in the recipe.
 |   nutrition_score | <class 'numpy.float64'>   |
 |   missing_rating | <class 'numpy.bool'>   |
 
-some
+###Univariate Analysis
+<iframe src="assets/number_step.html" width=800 height=400 frameBorder=0></iframe>
+
+We explored the distribution of individual columns to understand recipe characteristics. A histogram of the n_steps column revealed that most recipes require fewer than 20 steps, with a sharp decline in recipes needing more steps. This suggests that simpler recipes dominate the dataset, which might reflect user preferences or the platform's content trends.
+
+###Bivariate Analysis
+<iframe src="assets/file-name.html" width=800 height=400 frameBorder=0></iframe>
+
+We examined relationships between pairs of variables to uncover potential associations. For instance, we compared the average protein content of "main-dish" recipes to "appetizer" recipes by grouping data based on tags and calculating the mean protein percentage of the daily value. A bar plot showed that main dishes typically have higher protein content than appetizers.
+
+### Aggregates
 
 | nutrition_score     |   rating |
 |:------------|--------:|
 |   'bad' | 4.68   |
 |  'normal' | 4.69  |
 |   'healthy' | 4.64   |
+
+To identify notable trends, we grouped data by the nutrition_score column and calculated the mean user rating for each group. Surprisingly, recipes classified as "normal" received slightly higher average ratings (4.69) than "healthy" (4.64) or "bad" (4.68) recipes. This finding suggests that user ratings are not solely dependent on a recipe's healthiness.
 
 
 
